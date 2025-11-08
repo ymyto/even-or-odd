@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>偶数？奇数？</title>
+</head>
+
+<body>
+    <input placeholder="好きな数字を入力してください" type="number" id="number" />
+    <button id="judgment">偶数？奇数？</button>
+    <script>let number = 0;
+        const judgment = document.getElementById("judgment");
+
+        judgment.onclick = () => {
+            number = document.getElementById("number").value;
+            if (number % 2 === 0) {
+                alert("偶数です");
+            } else {
+                alert("奇数です");
+            }
+        };
+    </script>
+</body>
+
+</html>

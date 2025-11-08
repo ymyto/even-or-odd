@@ -1,2 +1,3 @@
-# even-or-odd
-Determine whether the entered number is even or odd.
+# 偶数？奇数？
+
+入力した数字を偶数か奇数かを判断します
